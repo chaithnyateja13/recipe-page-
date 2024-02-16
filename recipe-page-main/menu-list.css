@@ -1,0 +1,66 @@
+body{
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  
+}
+img{
+    width: 100%;
+    border-radius: 8px;
+    text-align: center;
+}
+
+ .hotel{
+    max-width: 600%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+
+  }
+  .h2{
+    font-style: italic;
+  }
+  .preparation-time{
+    max-width: 500%;
+    margin: 0 auto;
+    background-color: rgb(255, 223, 249);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px
+  }
+  .instructions{
+    max-width: 500%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.1) ;
+    padding: 20px
+  }
+  table{
+    margin: 0 auto;
+  outline: 2px solid white;
+  outline-offset: -2px;
+  border-collapse: collapse;
+  border-spacing: 85px 0;
+ width: 90%;
+  }
+  table tr{
+    padding: 1rem;
+  outline: 1px white;
+
+  } 
+  td{
+
+    padding:8px 8px 8px 15px;
+    border-bottom: 0.5px solid rgba(169, 168, 168, 0.707);
+
+  }
+  table span {
+    color: rgb(131, 96, 75);
+    font-weight:600;
+  }
